@@ -12,8 +12,6 @@ def input_to_index(user_input)
 end
 
 def move(board, index, current_player="X")
-#update_array_at_with(board, user_input, current_player) 
-# fruit = 'apple'
   board[index] = current_player
 end
 
